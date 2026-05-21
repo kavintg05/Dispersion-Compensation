@@ -32,8 +32,11 @@ Therefore, given target values for chromatic dispersion and attenuation loss plu
 1. Determine the maximum allowable fiber loss  
 2. Determine the maximum allowable chromatic dispersion  
 3. Based on the results of (1) and (2), determine the lengths of the transmission fiber and the DCF  
+<img width="1040" height="1280" alt="image" src="https://github.com/user-attachments/assets/b634b545-cc53-4f93-9a7c-b5082d20d643" />
 
 ---
+## Tabulation 
+<img width="1280" height="677" alt="image" src="https://github.com/user-attachments/assets/c7ad54e0-6e53-487e-9b19-6c0252c49e77" />
 
 ## Layout
 The main physical components of this layout are:
@@ -74,5 +77,5 @@ The main physical components of this layout are:
 
 ---
 
-## Conclusions
-Discuss the effectiveness of dispersion-compensating fiber and the ability of the calculations to engineer a viable system.
+## Result
+Dispersion compensation in the optical fiber communication system was simulated successfully using DCF fiber. The BER analyzer showed improved signal quality with acceptable Q factor, minimum BER, and clear eye diagram characteristics.
