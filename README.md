@@ -1,16 +1,11 @@
-# Dispersion-Compensation
 # Dispersion Compensation
-
 ## Objective
 Design and simulate a fiber optic system using dispersion-compensating fiber to reduce chromatic dispersion.
 
 ## Theory
 <img width="1398" height="500" alt="image" src="https://github.com/user-attachments/assets/a922bb4a-e871-4643-96a5-b78350cfb8d1" />
 
-
 Therefore, given target values for chromatic dispersion and attenuation loss plus specifications of the transmitter, fiber, and receiver, one can determine the lengths of the transmission fiber and the DCF by solving the above two equations simultaneously.
-
----
 
 ## Specifications
 - **Output power:** 0 dBm  
@@ -26,15 +21,12 @@ Therefore, given target values for chromatic dispersion and attenuation loss plu
 - Chromatic dispersion factor: –200 ps/nm-km at 1550 nm  
 - Attenuation: 0.5 dB/km at 1550 nm  
 
----
-
 ## Calculations
 1. Determine the maximum allowable fiber loss  
 2. Determine the maximum allowable chromatic dispersion  
 3. Based on the results of (1) and (2), determine the lengths of the transmission fiber and the DCF  
 <img width="1040" height="1280" alt="image" src="https://github.com/user-attachments/assets/b634b545-cc53-4f93-9a7c-b5082d20d643" />
 
----
 ## Tabulation 
 <img width="1280" height="677" alt="image" src="https://github.com/user-attachments/assets/c7ad54e0-6e53-487e-9b19-6c0252c49e77" />
 
@@ -50,8 +42,6 @@ The main physical components of this layout are:
 - Visualizer components included:  
   - Three Optical Time Domain visualizers (at transmitter output, after transmission fiber, and at the end of DCF)  
   - One Optical Spectrum Analyzer (at transmitter output, used to estimate spectral width)  
-
----
 
 ## Procedure
 - Adjust the laser power to obtain 0 dBm transmission output.  
@@ -69,13 +59,9 @@ The main physical components of this layout are:
   - Eye diagram  
   - Optical waveforms at transmitter output, junction between fibers, and receiver input  
 
----
-
 ## Further Simulation and Analysis
 - Set the DCF length to 0 and run the simulation again.  
 - Record similar measurements for comparison.  
-
----
 
 ## Result
 Dispersion compensation in the optical fiber communication system was simulated successfully using DCF fiber. The BER analyzer showed improved signal quality with acceptable Q factor, minimum BER, and clear eye diagram characteristics.
